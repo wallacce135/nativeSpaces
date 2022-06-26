@@ -1,0 +1,40 @@
+.Error{
+    background: #EFF1F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+    & > figure{
+        margin: 41px 0 65px 0;
+        display: flex;
+        position: relative;
+        text-align: center;
+        width: 1320px;
+        height: 684px;
+    }
+
+    & > figure > figcaption{
+        font-family: Roboto-Medium;
+        position: absolute;
+        top: 437px;
+        left: 495px;
+        font-size: 32px;
+        color: white;
+        width: 352px;
+    }
+
+    & > figure > button{
+        position: absolute;
+        width: 1240px;
+        left: 40px;
+        top: 588px;
+        height: 56px;
+        background: #005399;
+        border-radius: 16px;
+        cursor: pointer;
+        color: white;
+        font-family: Roboto-Medium;
+        font-size: 16px;
+    }
+}

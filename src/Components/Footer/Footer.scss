@@ -1,0 +1,27 @@
+.Footer{
+    background: #EFF1F4;
+}
+.Footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 1320px;
+    margin: auto;
+
+    & > .Footer_left-side{
+        border-top: 2px solid rgba(30, 40, 51, 0.0671438);
+        border-right: 2px solid rgba(30, 40, 51, 0.0671438);
+        height: 390px;
+    }
+
+    & > .Footer_right-side{
+        border-top: 2px solid rgba(30, 40, 51, 0.0671438);
+        height: 390px;
+    }
+
+    & > .Footer_bottom{
+        border-top: 2px solid rgba(30, 40, 51, 0.0671438);
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 152px;
+    }
+}

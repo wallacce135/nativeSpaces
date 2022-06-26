@@ -1,0 +1,19 @@
+.Search{
+    display: flex;
+    flex-direction: row;
+    height: 48px;
+    margin: 0 8px;
+    // & > button{
+    //     border: 0;
+    //     background: #EFEFEF;
+    //     border-top-left-radius: 12px;
+    //     border-bottom-left-radius: 12px;
+    //     width: 48px;
+    // }
+    & > input[type="text"]{
+        border: 0;
+        background: #EFEFEF;
+        border-radius: 12px;
+        width: 563px;
+    }
+}
